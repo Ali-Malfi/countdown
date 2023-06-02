@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./img/MicrosoftTeams-image.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.Countdown {
+    text-align: center;
+    font-size: 4rem;
+}
+.timer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.time {
+    font-weight: bold;
+    padding: 1rem 2rem;
+    font-size: 3rem;
+    border: 4px solid rgb(128, 128, 128);
+    backdrop-filter: blur(10px);
+    margin: 0 1rem;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .52);
+}
+.countdown-container {
+    font-size: 1rem;
+    font-weight: bold;
+    color: aliceblue;
+}
+/* .text {
+    color: rgb(0, 0, 0);
+} */
